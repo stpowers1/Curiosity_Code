@@ -1,48 +1,56 @@
-// add your curiosity code here
-//workspace
 size(500,500);
 
-//circle
-fill(255,225,107);
-strokeWeight(5);
-ellipse(400,170,75,75);
+
+//apple
+
+strokeWeight(6);
+fill(225,0,0);
+ellipse(250,270,300,275);
+
+//stick
+strokeWeight(16);
+stroke(179,149,107);
+//fill(180,150,120);
+beginShape();
+//vertex(245,160);
+curveVertex(260,190);
+curveVertex(260,190);
+curveVertex(260,160);
+//vertex(270,60);
+curveVertex(245,60);
+curveVertex(245,60);
+//vertex(245,160);
+//vertex(245,160);
+endShape();
 
 
-//rectangle
-fill(220,0,0);
-strokeWeight(5);
-rect(270,60,60,80);
-
-//lines yeard
+//shadowing
+noFill();
+stroke(0);
 strokeWeight(12);
-line(250,0,0,300);
+beginShape();
+curveVertex(240,170);
+curveVertex(240,170);
+curveVertex(260,190);
+curveVertex(280,170);
+curveVertex(280,170);
+//vertex(265,140);
+//vertex(250,130);
+endShape();
 
-//double lines yeard
-strokeWeight(12);
-line(60,0,60,500);
+//leaf
 
-//rectangle
-fill(184,100,278);
-strokeWeight(5);
-rect(159,347,250,60);
+beginShape();
+//curveVertex(240,100);
+//curveVertex(80,40);
+//curveVertex(
 
-//triple lines yeard
-stroke(8);
-line(400,0,400,500);
-
-//new lines yeard
-stroke(8);
-line(0,300,500,300);
-
-//lines cuh
-stroke(12);
-line(175,0,250,500);
-
-//circle
-fill(125,198,164);
-ellipse(110,100,76,76);
+//glare
+strokeWeight(0);
+fill(255,255,255);
+ellipse(350,230,50,50);
 
 
 
-//save function
-save("STEVEN.Curiosity.Drawing.png");
+//saveFunction
+save("STEVEN.POWERS.Curiosity.Drawing");
